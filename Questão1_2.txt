@@ -1,0 +1,11 @@
+1-
+Ao chegar à bomba de combustível, o cliente se depara com um dispositivo que oferece a possibilidade de abastecer seu veículo. A bomba exibe informações visuais sobre o tipo de combustível sendo oferecido, bem como o preço por litro. Além disso, há opções para o cliente selecionar o método de abastecimento, seja por preço ou por quantidade de litros. O cliente pode interagir com a bomba pressionando os botões correspondentes às suas escolhas.
+
+2-
+abastecer_preco(tipo_combustivel, preco): realiza o abastecimento do veículo selecionando o valor em reais a ser gasto.
+
+abastecer_litro(tipo_combustivel, litros): realiza o abastecimento do veículo selecionando a quantidade de litros a ser abastecida.
+
+valor_combustivel(tipo_combustivel, valor): O usuário adciona um preço para um combustivel.
+
+exibir_dados(valor_combustivel, abastecimento): exibe os dados do último abastecimento realizado, incluindo o tipo de combustível, a quantidade de litros abastecidos e o valor total pago.
