@@ -1,4 +1,4 @@
-Simulador de Bomba de Combustível
+# Simulador de Bomba de Combustível
 Este é um simulador de uma bomba de combustível desenvolvido como parte de um exercício da disciplina de Estrutura de dados, na faculdade. Ele permite simular o funcionamento de uma bomba de combustível, oferecendo funcionalidades básicas de abastecimento de veículos.
 
 Atividade Proposta
