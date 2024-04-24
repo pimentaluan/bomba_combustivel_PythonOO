@@ -1,15 +1,30 @@
-# Simulador de Bomba de Combustível
+# Simulador de Bomba de Combustível ⛽️🚗
 
 Este é um simulador de uma bomba de combustível desenvolvido como parte de um exercício da disciplina de Estrutura de Dados, na faculdade. Ele permite simular o funcionamento de uma bomba de combustível, oferecendo funcionalidades básicas de abastecimento de veículos.
 
-### Atividade Proposta
+### Abstração da Bomba de Combustível 🛢️
 
-Neste exercício, vamos “dar vida” a essa bomba de combustível como um produto de software, de forma que possa desempenhar as suas funcionalidades. Deste modo, faça o que se pede:
+A bomba de combustível é uma máquina utilizada para abastecer veículos com diferentes tipos de combustível, como gasolina, etanol e diesel. Suas principais características incluem:
 
-**(1) Abstração da Bomba de Combustível**: Utilizando uma narrativa em português, levante a abstração desta bomba de combustível. Vamos nos ater apenas às suas características mais aparentes e a que se dispõe esse produto (isto para evitar o levantamento de uma abstração profunda) e evitar pensar em, por exemplo, se o reservatório de combustível está cheio ou não. Considere a situação em que um cliente chega para abastecer e tudo vai dar certo.
+- **Tipo de Combustível:** A bomba oferece diferentes tipos de combustível para abastecimento, como gasolina comum, gasolina aditivada, etanol e diesel.
 
-**(2) Tipo Abstrato de Dados e Operações**: A partir da abstração final da questão 1, esboce o tipo abstrato de dados e as operações convenientes que dizem respeito às funcionalidades de interação com a bomba.
+- **Valor do Litro:** Cada tipo de combustível possui um valor por litro, determinado pelas condições de mercado.
 
-**(3) Implementação Estruturada**: Implemente um programa estruturado que simule o funcionamento desta bomba de combustível. Escreva um programa principal para testar.
+- **Capacidade de Abastecimento:** A bomba é capaz de abastecer o veículo com a quantidade desejada de combustível, até atingir o limite do tanque do veículo.
 
-**(4) Implementação Orientada a Objetos**: Por fim, modifique o programa para que a bomba seja pensada como um objeto, sob a ótica do paradigma OO. Utilize o mesmo programa principal da questão 3 para testar, fazendo as mínimas adaptações necessárias.
+### Tipo Abstrato de Dados e Operações 📝
+
+Com base na abstração da bomba de combustível, podemos definir o seguinte Tipo Abstrato de Dados (TAD) e suas operações:
+
+- **TAD BombaDeCombustivel:**
+  - `selecionar_combustivel(tipo_combustivel)`: Seleciona o tipo de combustível desejado para abastecimento.
+  - `abastecer(valor_litro, quantidade_litros)`: Abastece o veículo com a quantidade desejada de combustível, calculando o valor total do abastecimento.
+  - `exibir_valor_total()`: Exibe o valor total do abastecimento realizado.
+  
+### Implementação Estruturada 🛠️
+
+Para implementar o programa estruturado que simula o funcionamento da bomba de combustível, criamos funções para cada operação definida no TAD. O programa principal realiza os testes dessas operações.
+
+### Implementação Orientada a Objetos 🎨
+
+Na implementação orientada a objetos, a bomba de combustível é representada como um objeto da classe `BombaDeCombustivel`. Esta classe possui métodos que correspondem às operações definidas no TAD. Utilizamos o mesmo programa principal da implementação estruturada para testar a bomba de combustível como um objeto.
